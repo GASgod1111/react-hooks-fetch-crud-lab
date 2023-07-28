@@ -1,0 +1,91 @@
+/* styles.css */
+
+/* QuestionList */
+.QuestionList {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .QuestionList h2 {
+    margin-bottom: 10px;
+  }
+  
+  .QuestionList ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .QuestionList li {
+    margin-bottom: 10px;
+  }
+  
+  .QuestionList p {
+    font-weight: bold;
+  }
+  
+  .QuestionList ul li {
+    margin-left: 20px;
+  }
+  
+  .QuestionList select {
+    margin-top: 5px;
+  }
+  
+  .QuestionList button {
+    margin-left: 5px;
+    background-color: #ff6b6b;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* QuestionForm */
+  .QuestionForm {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .QuestionForm h1 {
+    margin-bottom: 10px;
+  }
+  
+  .QuestionForm form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .QuestionForm label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  
+  .QuestionForm input,
+  .QuestionForm select {
+    padding: 5px;
+  }
+  
+  .QuestionForm button {
+    margin-top: 10px;
+    background-color: #36a4f7;
+    color: #fff;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Additional styles for responsiveness (optional) */
+  @media (max-width: 600px) {
+    .QuestionList, .QuestionForm {
+      margin: 10px;
+      padding: 10px;
+    }
+  }
+  

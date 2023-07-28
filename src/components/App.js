@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import AdminNavBar from "./AdminNavBar";
 import QuestionForm from "./QuestionForm";
 import QuestionList from "./QuestionList";
-
+import './styles.css';
 function App() {
   const [page, setPage] = useState("List");
 
